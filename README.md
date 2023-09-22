@@ -1,25 +1,3 @@
-<p align="center">
-  <h1 align="center"><ins>LightGlue ⚡️</ins><br>Local Feature Matching at Light Speed</h1>
-  <p align="center">
-    <a href="https://www.linkedin.com/in/philipplindenberger/">Philipp Lindenberger</a>
-    ·
-    <a href="https://psarlin.com/">Paul-Edouard&nbsp;Sarlin</a>
-    ·
-    <a href="https://www.microsoft.com/en-us/research/people/mapoll/">Marc&nbsp;Pollefeys</a>
-  </p>
-<!-- <p align="center">
-    <img src="assets/larchitecture.svg" alt="Logo" height="40">
-</p> -->
-  <!-- <h2 align="center">PrePrint 2023</h2> -->
-  <h2 align="center"><p>
-    <a href="https://arxiv.org/pdf/2306.13643.pdf" align="center">Paper</a> | 
-    <a href="https://colab.research.google.com/github/cvg/LightGlue/blob/main/demo.ipynb" align="center">Colab</a>
-  </p></h2>
-  <div align="center"></div>
-</p>
-
-
-</p>
 
 ##
 
