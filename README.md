@@ -39,6 +39,31 @@ git clone https://github.com/cvg/LightGlue.git && cd LightGlue
 python -m pip install -e .
 ```
 
+## Data
+
+The data needs to be in the following format:
+
+```
+<data_root>            # datadir 
+├── <scene001>             
+  ├── images           # RGB images
+      ├── img0.jpg     
+      ├── img1.jpg
+      ├── img2.jpg
+      ...
+├── <scene002>      
+  ├── images           # RGB images
+      ├── img0.jpg     
+      ├── img1.jpg
+      ├── img2.jpg
+      ...
+├── <scene003>      
+  ├── images           # RGB images
+      ├── img0.jpg     
+      ├── img1.jpg
+      ├── img2.jpg
+      ...
+```
 We provide a [demo notebook](demo.ipynb) which shows how to perform feature extraction and matching on an image pair.
 
 Here is a minimal script to match two images:
