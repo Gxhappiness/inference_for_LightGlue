@@ -1,7 +1,13 @@
 
 ##
 
-This repository hosts the batch inference code of LightGlue, a lightweight feature matcher with high accuracy and blazing fast inference. It takes as input a set of keypoints and descriptors for each image and returns the indices of corresponding points. The architecture is based on adaptive pruning techniques, in both network width and depth - [check out the paper for more details](https://arxiv.org/pdf/2306.13643.pdf).
+This repository hosts the batch inference code (inference_pose.py and inference_point.py) of LightGlue. 
+
+The architecture is based on adaptive pruning techniques, in both network width and depth - [check out the paper for more details](https://arxiv.org/pdf/2306.13643.pdf).
+
+inference_point.py: Save the corresponding feature point pairs between two frames inferred by lightglue into a. txt file, with four numbers for each line being x1 , y1 ; X2, y2.
+
+inference_pose.py: It only calculates the camera pose based on the feature points on the rgb image. After my own verification, the calculated pose seems to be not very accurate. If there is rgb-d information, "inference_point.py" is used to calculate the feature points between frames. Then rgb-d is applied to the 3D point cloud to calculate the pose, such as the simplest least squares method.
 
 
 
